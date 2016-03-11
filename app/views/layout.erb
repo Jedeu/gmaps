@@ -10,14 +10,19 @@
   <!--
     application.css is where you put your styles
   -->
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
   <link rel="stylesheet" href="/stylesheets/application.css">
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/javascript/application.js"></script>
 
-  <title></title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <title>Hello Vancouver</title>
 </head>
 <body>
   <%= yield %>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKfVV4SrqiLOB2nKlOT6gC1lPo22tR2wM&callback=initMap" async defer></script>
 </body>
 </html>
