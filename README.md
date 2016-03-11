@@ -1,10 +1,4 @@
-Sinatra
+GoogleMaps API exercise
 =============
 
-Brought to you by Lighthouse Labs
-
-## Getting Started
-
-1. `bundle install`
-2. `shotgun -p 3000 -o 0.0.0.0`
-3. Visit `http://localhost:3000/` in your browser
+A program that will combine the Google Maps API and the 500px API to display images and the location from which they were taken.
